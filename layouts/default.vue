@@ -14,7 +14,7 @@
   ```
 -->
 <template>
-<Navigation/>  
+<!-- <Navigation/>   -->
     <div class="bg-white">
         <!-- Mobile menu -->
         <TransitionRoot as="template" :show="open">
@@ -335,7 +335,7 @@
                             <div class="flex items-end p-6">
                                 <div>
                                     <h3 class="font-semibold text-white">
-                                        <a href="#">
+                                        <a href="/category">
                                             <span class="absolute inset-0" />
                                             New Arrivals
                                         </a>

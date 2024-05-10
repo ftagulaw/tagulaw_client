@@ -14,7 +14,20 @@
   ```
 -->
 <template>
+  <div>
+    <Navigation />
     <NuxtLayout name="default">
+      <!-- Your page content goes here -->
     </NuxtLayout>
+  </div>
 </template>
-   
+
+<script>
+import Navigation from '~/components/Navigation.vue'
+
+export default {
+  components: {
+    Navigation
+  }
+}
+</script>
